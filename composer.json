@@ -1,0 +1,17 @@
+{
+	"name": "silverstripe/pdomysql",
+	"description": "Adds PDO MySQL support to SilverStripe",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "mysql", "pdo", "database"],
+	"authors": [
+	{
+		"name": "Jared Kipe",
+		"email": "jared@jaredkipe.com"
+	}
+	],
+
+	"require":
+	{
+		"silverstripe/framework": "3.*"
+	}
+}
