@@ -1363,7 +1363,7 @@ class PDOMySQLQuery extends SS_Query {
 	 * @param database The database object that created this query.
 	 * @param handle the internal mysql handle that is points to the resultset.
 	 */
-	public function __construct(MySQLDatabase $database, $handle) {
+	public function __construct(PDOMySQLDatabase $database, $handle) {
 		$this->database = $database;
 		$this->handle = $handle;
 	}
